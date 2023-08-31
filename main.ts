@@ -9,7 +9,7 @@
 let randomNumber: number
 
 basic.clearScreen()
-basic.pause(1000)
+basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
   randomNumber = randint(1, 6)
