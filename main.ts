@@ -11,7 +11,7 @@ let randomNumber: number
 basic.clearScreen()
 basic.pause(1000)
 
-input.onButtonPressed(Button.A, function() {
-    randomNumber = randint(1, 6)
-    basic.showNumber(randomNumber)
+input.onButtonPressed(Button.A, function () {
+  randomNumber = randint(1, 6)
+  basic.showNumber(randomNumber)
 })
