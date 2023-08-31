@@ -5,13 +5,15 @@ This module simulates a 6 sided dice
 """
 
 from microbit import *
-from time import sleep
-
+import random
 
 # our variable for a random number
-randomNumber = 0
+random_number = 0
 
-display.clearScreen()
-sleep(1000)
+display.clear()
+display.show(Image.HAPPY)
 
-
+while True:
+    if button_a.is_pressed():
+        random_number = random.randint(1, 6)
+        display.show(str(random_number))
