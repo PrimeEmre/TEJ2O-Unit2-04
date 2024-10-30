@@ -3,7 +3,7 @@ Created by: Mr. Coxall
 Created on: Sep 2020
 This module simulates a 6 sided dice
 """
-
+#test
 from microbit import *
 import random
 
